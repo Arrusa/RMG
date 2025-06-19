@@ -1,5 +1,5 @@
 
-def RMG(Empid,Fullname,Contact,list,Grdae,Exp):
+def Empinfo(Empid,Fullname,Contact,list,Grdae,Exp):
     print("Employee Details as below:")
     print(f"MY name is {Fullname}.")
     print(f"Emp id :{Empid}.")
@@ -24,7 +24,7 @@ for i in range(n):
     list= input("Enter elements separated by space: ").split()
     Grdae =  str(input("Enter Your Grade"))
     Exp = input("Enter your Experience")
-RMG(Empid,Fullname,Contact,list,Grdae,Exp)
+Empinfo(Empid,Fullname,Contact,list,Grdae,Exp)
 
 
 
